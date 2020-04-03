@@ -23,6 +23,9 @@ SRN的主要出发点是：
     \label{srn_introduction} 
 \end{figure}
 
+\subsubsection{SRN的网络结构}
+SRN的网络结构如图\ref{srn_framework}所示：1）整体网络的backbone为FPN网络，用于提取图像的视觉特征；2）并行的视觉注意力模块（PAVM）用于定位每个字符；3）全局的语义推理模块（GSRM）
+用于利用语义上下文来预测字符。
 \begin{figure}[H]
     \centering
     \includegraphics[width=.98\textwidth]{figure/recognition/srn_framework.png} 
