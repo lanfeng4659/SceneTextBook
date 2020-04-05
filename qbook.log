@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  3 APR 2020 17:18
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  5 APR 2020 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2330,31 +2330,15 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12.045> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.045pt on input line 3.
-)
+ [3
+
+])
 \tf@toc=\write7
 \openout7 = `qbook.toc'.
 
- [3
-
-]
-\openout2 = `tex/text_recognition.aux'.
-
- (./tex/text_recognition.tex
-第一章
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <64> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 64.0pt on input line 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.05624pt on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <15.05624> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 15.05624pt on input line 5.
-File: figure/recognition/srn_introduction.png Graphic file (type bmp)
-<figure/recognition/srn_introduction.png>
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 22.
+(Font)              scaled to size 10.53937pt on input line 39.
+
 
 Package fontspec Warning: Font "FandolKai-Regular" does not contain requested
 (fontspec)                Script "CJK".
@@ -2371,22 +2355,85 @@ Package fontspec Info: Font family 'FandolKai-Regular(0)' created for font
 (fontspec)             <->"[FandolKai-Regular.otf]/OT"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
+[4]
+\openout2 = `tex/text_recognition.aux'.
 
-Underfull \vbox (badness 5388) has occurred while \output is active []
-
- [1
+ (./tex/text_recognition.tex
+第一章
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <64> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 64.0pt on input line 3.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 15.05624pt on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <15.05624> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 15.05624pt on input line 5.
+File: figure/recognition/dan_introduction.png Graphic file (type bmp)
+<figure/recognition/dan_introduction.png>
+File: figure/recognition/dan_framework.png Graphic file (type bmp)
+<figure/recognition/dan_framework.png>
+[1
 
 
 
 ]
+File: figure/recognition/gtc_introduction.png Graphic file (type bmp)
+<figure/recognition/gtc_introduction.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+File: figure/recognition/gtc_framework.png Graphic file (type bmp)
+<figure/recognition/gtc_framework.png>
+ [3]
+File: figure/recognition/textscanner_introduction.png Graphic file (type bmp)
+<figure/recognition/textscanner_introduction.png>
+File: figure/recognition/textscanner_framework.png Graphic file (type bmp)
+<figure/recognition/textscanner_framework.png>
+ [4]
+File: figure/recognition/scatter_framework.png Graphic file (type bmp)
+<figure/recognition/scatter_framework.png>
+File: figure/recognition/scatter_feature_select.png Graphic file (type bmp)
+<figure/recognition/scatter_feature_select.png>
+ [5]
+File: figure/recognition/srn_introduction.png Graphic file (type bmp)
+<figure/recognition/srn_introduction.png>
 File: figure/recognition/srn_framework.png Graphic file (type bmp)
 <figure/recognition/srn_framework.png>
-) [2]
+File: figure/recognition/srn_gsrm.png Graphic file (type bmp)
+<figure/recognition/srn_gsrm.png>
+ [6]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.0pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.0pt on input line 140.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 9.48535pt on input line 140.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 140.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 140.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.53937pt on input line 140.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 7.0pt on input line 140.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 5.0pt on input line 140.
+File: figure/recognition/srn_multiway.png Graphic file (type bmp)
+<figure/recognition/srn_multiway.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]) [8]
 \openout2 = `tex/text_detection.aux'.
 
  (./tex/text_detection.tex
 第二章
-) [3
+) [9
 
 
 
@@ -2397,7 +2444,7 @@ File: figure/recognition/srn_framework.png Graphic file (type bmp)
 第三章
 File: figure/spotting/trends.png Graphic file (type bmp)
 <figure/spotting/trends.png>
-[4
+[10
 
 
 
@@ -2409,45 +2456,45 @@ File: figure/spotting/masktextspotter_maskbranch.png Graphic file (type bmp)
 
 Underfull \vbox (badness 2293) has occurred while \output is active []
 
- [5]
+ [11]
 File: figure/spotting/masktextspotter_v2_framework.png Graphic file (type bmp)
 <figure/spotting/masktextspotter_v2_framework.png>
 File: figure/spotting/masktextspotter_v2_recog.png Graphic file (type bmp)
 <figure/spotting/masktextspotter_v2_recog.png>
- [6]
+ [12]
 File: figure/spotting/textdragon_framework.png Graphic file (type bmp)
 <figure/spotting/textdragon_framework.png>
- [7]
+ [13]
 File: figure/spotting/textdragon_representation.png Graphic file (type bmp)
 <figure/spotting/textdragon_representation.png>
 File: figure/spotting/charnet_framework.png Graphic file (type bmp)
 <figure/spotting/charnet_framework.png>
- [8] [9]
+ [14] [15]
 File: figure/spotting/maskroi_framework.png Graphic file (type bmp)
 <figure/spotting/maskroi_framework.png>
- [10]
+ [16]
 File: figure/spotting/textperceptron_framework.png Graphic file (type bmp)
 <figure/spotting/textperceptron_framework.png>
 File: figure/spotting/textperceptron_label.png Graphic file (type bmp)
 <figure/spotting/textperceptron_label.png>
 File: figure/spotting/textperceptron_process.png Graphic file (type bmp)
 <figure/spotting/textperceptron_process.png>
- [11] [12]
+ [17] [18]
 File: figure/spotting/abcnet_framework.png Graphic file (type bmp)
 <figure/spotting/abcnet_framework.png>
 File: figure/spotting/abcnet_basier.png Graphic file (type bmp)
 <figure/spotting/abcnet_basier.png>
 File: figure/spotting/abcnet_sample.png Graphic file (type bmp)
 <figure/spotting/abcnet_sample.png>
- [13]) [14]
+ [19]) [20]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.045pt on input line 61.
- [15
+ [21
 
 
 ] 
 AED: lastpage setting LastPage
-[16]
+[22]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (./qbook.aux (./tex/cover.aux) (./tex/text_recognition.aux) (./tex/text_detection.aux) (./tex/text_spotting.aux))
@@ -2462,12 +2509,12 @@ Package logreq Info: Writing requests to 'qbook.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61813 strings out of 492916
- 1324197 string characters out of 6133346
- 1790763 words of memory out of 5000000
- 64822 multiletter control sequences out of 15000+600000
- 593991 words of font info for 125 fonts, out of 8000000 for 9000
+ 61935 strings out of 492916
+ 1327033 string characters out of 6133346
+ 1791711 words of memory out of 5000000
+ 64924 multiletter control sequences out of 15000+600000
+ 620267 words of font info for 176 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 77i,11n,426p,924b,5382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,13n,426p,924b,5382s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on qbook.pdf (19 pages).
+Output written on qbook.pdf (26 pages).

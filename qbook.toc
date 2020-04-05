@@ -2,39 +2,47 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}文字识别（Scene Text Recognition）}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}文字识别方法介绍}{1}{section.1.1}% 
-\contentsline {subsection}{\numberline {1.1.1}TextScanner}{1}{subsection.1.1.1}% 
-\contentsline {subsection}{\numberline {1.1.2}SCATTER}{1}{subsection.1.1.2}% 
-\contentsline {subsection}{\numberline {1.1.3}SRN}{1}{subsection.1.1.3}% 
-\contentsline {subsubsection}{\numberline {1.1.3.1}SRN的网络结构}{2}{subsubsection.1.1.3.1}% 
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}文字检测（Scene Text Detection）}{3}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}文字检测是什么？}{3}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}基于回归的方法}{3}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}基于分割的方法}{3}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}其他方法}{3}{section.2.4}% 
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}端到端文字识别（Scene Text Spotting）}{4}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}任意形状文本端到端识别方法的发展脉络}{5}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}各种任意形状文本端到端识别方法介绍}{5}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}MaskTextSpotter}{5}{subsection.3.2.1}% 
-\contentsline {subsubsection}{\numberline {3.2.1.1}MaskTextSpotter网络结构}{5}{subsubsection.3.2.1.1}% 
-\contentsline {subsubsection}{\numberline {3.2.1.2}MaskTextSpotter实验细节}{6}{subsubsection.3.2.1.2}% 
-\contentsline {subsubsection}{\numberline {3.2.1.3}MaskTextSpotter\_v2网络结构}{6}{subsubsection.3.2.1.3}% 
-\contentsline {subsubsection}{\numberline {3.2.1.4}MaskTextSpotter\_v2实验细节}{6}{subsubsection.3.2.1.4}% 
-\contentsline {subsection}{\numberline {3.2.2}TextDragon}{7}{subsection.3.2.2}% 
-\contentsline {subsubsection}{\numberline {3.2.2.1}TextDragon网络结构}{7}{subsubsection.3.2.2.1}% 
-\contentsline {subsubsection}{\numberline {3.2.2.2}TextDragon实验细节}{8}{subsubsection.3.2.2.2}% 
-\contentsline {subsection}{\numberline {3.2.3}CharNet}{8}{subsection.3.2.3}% 
-\contentsline {subsubsection}{\numberline {3.2.3.1}CharNet网络结构}{9}{subsubsection.3.2.3.1}% 
-\contentsline {subsubsection}{\numberline {3.2.3.2}CharNet实验细节}{9}{subsubsection.3.2.3.2}% 
-\contentsline {subsection}{\numberline {3.2.4}MaskRoI}{10}{subsection.3.2.4}% 
-\contentsline {subsubsection}{\numberline {3.2.4.1}MaskRoI网络结构}{10}{subsubsection.3.2.4.1}% 
-\contentsline {subsubsection}{\numberline {3.2.4.2}MaskRoI实验细节}{11}{subsubsection.3.2.4.2}% 
-\contentsline {subsection}{\numberline {3.2.5}Boundary}{11}{subsection.3.2.5}% 
-\contentsline {subsection}{\numberline {3.2.6}TextPerceptron}{11}{subsection.3.2.6}% 
-\contentsline {subsubsection}{\numberline {3.2.6.1}TextPerceptron网络结构}{11}{subsubsection.3.2.6.1}% 
-\contentsline {subsubsection}{\numberline {3.2.6.2}TextPerceptron边界点获取过程}{11}{subsubsection.3.2.6.2}% 
-\contentsline {subsubsection}{\numberline {3.2.6.3}TextPerceptron实验细节}{12}{subsubsection.3.2.6.3}% 
-\contentsline {subsection}{\numberline {3.2.7}ABCNet}{13}{subsection.3.2.7}% 
-\contentsline {subsubsection}{\numberline {3.2.7.1}ABCNet网络结构}{13}{subsubsection.3.2.7.1}% 
-\contentsline {subsubsection}{\numberline {3.2.7.2}ABCNet实验细节}{14}{subsubsection.3.2.7.2}% 
-\contentsline {section}{\numberline {3.3}任意形状文本端到端识别方法的总结}{14}{section.3.3}% 
-\contentsline {chapter}{Bibliography}{15}{chapter*.19}% 
+\contentsline {subsection}{\numberline {1.1.1}DAN}{1}{subsection.1.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.1.1}DAN的网络结构}{2}{subsubsection.1.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}GTC}{2}{subsection.1.1.2}% 
+\contentsline {subsubsection}{\numberline {1.1.2.1}GTC的网络结构}{3}{subsubsection.1.1.2.1}% 
+\contentsline {subsection}{\numberline {1.1.3}TextScanner}{4}{subsection.1.1.3}% 
+\contentsline {subsubsection}{\numberline {1.1.3.1}TextScanner的网络结构}{4}{subsubsection.1.1.3.1}% 
+\contentsline {subsection}{\numberline {1.1.4}SCATTER}{5}{subsection.1.1.4}% 
+\contentsline {subsubsection}{\numberline {1.1.4.1}SCATTER的网络结构}{5}{subsubsection.1.1.4.1}% 
+\contentsline {subsection}{\numberline {1.1.5}SRN}{6}{subsection.1.1.5}% 
+\contentsline {subsubsection}{\numberline {1.1.5.1}SRN的网络结构}{6}{subsubsection.1.1.5.1}% 
+\contentsline {subsubsection}{\numberline {1.1.5.2}SRN并行以及语义推理分析}{7}{subsubsection.1.1.5.2}% 
+\contentsline {subsection}{\numberline {1.1.6}SEED}{8}{subsection.1.1.6}% 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}文字检测（Scene Text Detection）}{9}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}文字检测是什么？}{9}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}基于回归的方法}{9}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}基于分割的方法}{9}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}其他方法}{9}{section.2.4}% 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}端到端文字识别（Scene Text Spotting）}{10}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}任意形状文本端到端识别方法的发展脉络}{11}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}各种任意形状文本端到端识别方法介绍}{11}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}MaskTextSpotter}{11}{subsection.3.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.1.1}MaskTextSpotter网络结构}{11}{subsubsection.3.2.1.1}% 
+\contentsline {subsubsection}{\numberline {3.2.1.2}MaskTextSpotter实验细节}{12}{subsubsection.3.2.1.2}% 
+\contentsline {subsubsection}{\numberline {3.2.1.3}MaskTextSpotter\_v2网络结构}{12}{subsubsection.3.2.1.3}% 
+\contentsline {subsubsection}{\numberline {3.2.1.4}MaskTextSpotter\_v2实验细节}{12}{subsubsection.3.2.1.4}% 
+\contentsline {subsection}{\numberline {3.2.2}TextDragon}{13}{subsection.3.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2.1}TextDragon网络结构}{13}{subsubsection.3.2.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.2.2}TextDragon实验细节}{14}{subsubsection.3.2.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}CharNet}{14}{subsection.3.2.3}% 
+\contentsline {subsubsection}{\numberline {3.2.3.1}CharNet网络结构}{15}{subsubsection.3.2.3.1}% 
+\contentsline {subsubsection}{\numberline {3.2.3.2}CharNet实验细节}{15}{subsubsection.3.2.3.2}% 
+\contentsline {subsection}{\numberline {3.2.4}MaskRoI}{16}{subsection.3.2.4}% 
+\contentsline {subsubsection}{\numberline {3.2.4.1}MaskRoI网络结构}{16}{subsubsection.3.2.4.1}% 
+\contentsline {subsubsection}{\numberline {3.2.4.2}MaskRoI实验细节}{17}{subsubsection.3.2.4.2}% 
+\contentsline {subsection}{\numberline {3.2.5}Boundary}{17}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.6}TextPerceptron}{17}{subsection.3.2.6}% 
+\contentsline {subsubsection}{\numberline {3.2.6.1}TextPerceptron网络结构}{17}{subsubsection.3.2.6.1}% 
+\contentsline {subsubsection}{\numberline {3.2.6.2}TextPerceptron边界点获取过程}{17}{subsubsection.3.2.6.2}% 
+\contentsline {subsubsection}{\numberline {3.2.6.3}TextPerceptron实验细节}{18}{subsubsection.3.2.6.3}% 
+\contentsline {subsection}{\numberline {3.2.7}ABCNet}{19}{subsection.3.2.7}% 
+\contentsline {subsubsection}{\numberline {3.2.7.1}ABCNet网络结构}{19}{subsubsection.3.2.7.1}% 
+\contentsline {subsubsection}{\numberline {3.2.7.2}ABCNet实验细节}{20}{subsubsection.3.2.7.2}% 
+\contentsline {section}{\numberline {3.3}任意形状文本端到端识别方法的总结}{20}{section.3.3}% 
+\contentsline {chapter}{Bibliography}{21}{chapter*.30}% 
