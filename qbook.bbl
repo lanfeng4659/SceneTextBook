@@ -19,6 +19,50 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{baek2019character}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=778de1015d4d7bee0489fc41badc7527}{%
+           family={Baek},
+           familyi={B\bibinitperiod},
+           given={Youngmin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=45c762dc0e7a36818ccf0ce1d2863e95}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Bado},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9d2ac11de77065ae48b1a2661bb6c477}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Dongyoon},
+           giveni={D\bibinitperiod}}}%
+        {{hash=eb5683d5e1e58ddad99e436c69bb62e9}{%
+           family={Yun},
+           familyi={Y\bibinitperiod},
+           given={Sangdoo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f08c00bcf176a186203d8e949c591d83}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hwalsuk},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{45692f298bd1c5b137ec8f8c7984a59e}
+      \strng{fullhash}{b7e4c4842070ce6c29f966c363096e0d}
+      \strng{bibnamehash}{45692f298bd1c5b137ec8f8c7984a59e}
+      \strng{authorbibnamehash}{45692f298bd1c5b137ec8f8c7984a59e}
+      \strng{authornamehash}{45692f298bd1c5b137ec8f8c7984a59e}
+      \strng{authorfullhash}{b7e4c4842070ce6c29f966c363096e0d}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Character region awareness for text detection}
+      \field{year}{2019}
+      \field{pages}{9365\bibrangedash 9374}
+      \range{pages}{10}
+    \endentry
     \entry{2020srn}{article}{}
       \name{author}{6}{}{%
         {{hash=a12404b98965e5336912887ea8eb9fba}{%
@@ -224,6 +268,43 @@
       \field{title}{GTC: Guided Training of CTC Towards Efficient and Accurate Scene Text Recognition}
       \field{year}{2020}
     \endentry
+    \entry{li2019learning}{article}{}
+      \name{author}{4}{}{%
+        {{hash=094aaa710e1c038d237df846cbfb6361}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={XiaoQian},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6ba98b57fe1f95279a7b276f87e11088}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9010385d6666a7d2274f13b7110739f0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={ShuWu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=68a3e95d5e402c4cbcd926a1a51746dd}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={GuiXuan},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e1a0ae080c215ffed50f975b40b446}
+      \strng{fullhash}{f1e1a0ae080c215ffed50f975b40b446}
+      \strng{bibnamehash}{f1e1a0ae080c215ffed50f975b40b446}
+      \strng{authorbibnamehash}{f1e1a0ae080c215ffed50f975b40b446}
+      \strng{authornamehash}{f1e1a0ae080c215ffed50f975b40b446}
+      \strng{authorfullhash}{f1e1a0ae080c215ffed50f975b40b446}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1911.07423}
+      \field{title}{Learning to Predict More Accurate Text Instances for Scene Text Detection}
+      \field{year}{2019}
+    \endentry
     \entry{liao2019mask}{article}{}
       \name{author}{6}{}{%
         {{hash=eaf4021168319e7c768d0bb6f1210cc6}{%
@@ -266,12 +347,56 @@
       \strng{authorbibnamehash}{556ef30ea9912b4cc0fdffde487e1e27}
       \strng{authornamehash}{556ef30ea9912b4cc0fdffde487e1e27}
       \strng{authorfullhash}{9ae1a979ea993c38d892fce93183534a}
+      \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE transactions on pattern analysis and machine intelligence}
       \field{title}{Mask textspotter: An end-to-end trainable neural network for spotting text with arbitrary shapes}
+      \field{year}{2019}
+    \endentry
+    \entry{liao2019real}{article}{}
+      \name{author}{5}{}{%
+        {{hash=eaf4021168319e7c768d0bb6f1210cc6}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Minghui},
+           giveni={M\bibinitperiod}}}%
+        {{hash=033d2df0ba4323df88f46e6646dc576b}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Zhaoyi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=fa98e8b4e3253aa1f8427ad24381b742}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ee3f7d7b96add98106db907e189d6c13}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=68f158f41c42b03be07aa7fb3c8d36de}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{556ef30ea9912b4cc0fdffde487e1e27}
+      \strng{fullhash}{3182e121b2dbdf37bb6c12b7ea58bdcb}
+      \strng{bibnamehash}{556ef30ea9912b4cc0fdffde487e1e27}
+      \strng{authorbibnamehash}{556ef30ea9912b4cc0fdffde487e1e27}
+      \strng{authornamehash}{556ef30ea9912b4cc0fdffde487e1e27}
+      \strng{authorfullhash}{3182e121b2dbdf37bb6c12b7ea58bdcb}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1911.08947}
+      \field{title}{Real-time Scene Text Detection with Differentiable Binarization}
       \field{year}{2019}
     \endentry
     \entry{scatter}{article}{}
@@ -321,6 +446,49 @@
       \field{title}{SCATTER: Selective Context Attentional Scene Text Recognizer}
       \field{year}{2020}
     \endentry
+    \entry{liu2020puzzlenet}{article}{}
+      \name{author}{5}{}{%
+        {{hash=33104fd0f457a2964af323817a9d2016}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e7eb6b22f0f6629c04e6a2050c60c7dc}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Antai},
+           giveni={A\bibinitperiod}}}%
+        {{hash=154a612b3868c5123ec63d4078d9aa7b}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Deqiang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2bd85564c487d8354d1f96ef77c49a5e}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yiqing},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2ff30084928b989a56abea2c31aae83b}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{63b1740f5ff05cd04c1c7688bc271fea}
+      \strng{fullhash}{6e17644a4f15f430f6bd23e41f7bfe60}
+      \strng{bibnamehash}{63b1740f5ff05cd04c1c7688bc271fea}
+      \strng{authorbibnamehash}{63b1740f5ff05cd04c1c7688bc271fea}
+      \strng{authornamehash}{63b1740f5ff05cd04c1c7688bc271fea}
+      \strng{authorfullhash}{6e17644a4f15f430f6bd23e41f7bfe60}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2002.11371}
+      \field{title}{PuzzleNet: Scene Text Detection by Segment Context Graph Learning}
+      \field{year}{2020}
+    \endentry
     \entry{liu2018fots}{inproceedings}{}
       \name{author}{6}{}{%
         {{hash=a770f9f6dcfe05f34bc7d9835ea4375b}{%
@@ -360,7 +528,7 @@
       \strng{authorbibnamehash}{42a3c3f5e0148a5cfb2f4aebe35dd699}
       \strng{authornamehash}{42a3c3f5e0148a5cfb2f4aebe35dd699}
       \strng{authorfullhash}{10e2462e6a268761508e44f11868b042}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
@@ -410,7 +578,7 @@
       \strng{authorbibnamehash}{89ea49b53c10912b0aac67bf3e2aef61}
       \strng{authornamehash}{89ea49b53c10912b0aac67bf3e2aef61}
       \strng{authorfullhash}{bfc5b19019728ca237f4bc9a226604b9}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
@@ -512,6 +680,43 @@
       \field{pages}{67\bibrangedash 83}
       \range{pages}{17}
     \endentry
+    \entry{ma2020relatext}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b7da3a4dd6fd97e672bc05eeadd374c6}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Chixiang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=48c4637a04d7042f2b0d3daec079d61e}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=559144c8d8b0b908a3db59aa9f0f313b}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Zhuoyao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=6c9f6d6d1906593d7c11086572d2267e}{%
+           family={Huo},
+           familyi={H\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{3db94cebc73f4b3a2be2693c46a87a0f}
+      \strng{fullhash}{3db94cebc73f4b3a2be2693c46a87a0f}
+      \strng{bibnamehash}{3db94cebc73f4b3a2be2693c46a87a0f}
+      \strng{authorbibnamehash}{3db94cebc73f4b3a2be2693c46a87a0f}
+      \strng{authornamehash}{3db94cebc73f4b3a2be2693c46a87a0f}
+      \strng{authorfullhash}{3db94cebc73f4b3a2be2693c46a87a0f}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2003.06999}
+      \field{title}{ReLaText: Exploiting Visual Relationships for Arbitrary-Shaped Scene Text Detection with Graph Convolutional Networks}
+      \field{year}{2020}
+    \endentry
     \entry{qiao2020text}{article}{}
       \name{author}{7}{}{%
         {{hash=303e62be2f361286b7f387696a4e5759}{%
@@ -609,6 +814,38 @@
       \field{year}{2019}
       \field{pages}{4704\bibrangedash 4714}
       \range{pages}{11}
+    \endentry
+    \entry{seytre2019texttubes}{article}{}
+      \name{author}{3}{}{%
+        {{hash=072ae1e9483894d507c892333f8f65ba}{%
+           family={Seytre},
+           familyi={S\bibinitperiod},
+           given={Jo{ë}l},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cafaa1fc4892c216d4ea22ea4ca99dcd}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=256eba6d0de1aa841468686da9328e03}{%
+           family={Achille},
+           familyi={A\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0dd30486caf978e701a4b9902ff89212}
+      \strng{fullhash}{0dd30486caf978e701a4b9902ff89212}
+      \strng{bibnamehash}{0dd30486caf978e701a4b9902ff89212}
+      \strng{authorbibnamehash}{0dd30486caf978e701a4b9902ff89212}
+      \strng{authornamehash}{0dd30486caf978e701a4b9902ff89212}
+      \strng{authorfullhash}{0dd30486caf978e701a4b9902ff89212}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1912.08990}
+      \field{title}{TextTubes for Detecting Curved Text in the Wild}
+      \field{year}{2019}
     \endentry
     \entry{shi2018aster}{article}{}
       \name{author}{6}{}{%
@@ -866,6 +1103,100 @@
       \field{title}{Decoupled Attention Network for Text Recognition}
       \field{year}{2019}
     \endentry
+    \entry{wang2019shape}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=7a01b04c92b0592fe6e559a4e4678ce2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenhai},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c92e1a689fa6eae31f7ab57c517b873d}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Enze},
+           giveni={E\bibinitperiod}}}%
+        {{hash=09e1a64c667557dd7866bc4e66d193ce}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3de2ec4d78607441e6cf4aef7d6426aa}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Wenbo},
+           giveni={W\bibinitperiod}}}%
+        {{hash=0998589594fce110efc2b48a654f9def}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Tong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e63f0ad91019f51740425f4cf7860eca}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5212ac76881b31425c66da12d79eb7fa}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fd24bb3bcb0c808e3fd30337fe92f0b}
+      \strng{fullhash}{823671a008dbe335b785bf9816a2d0a0}
+      \strng{bibnamehash}{5fd24bb3bcb0c808e3fd30337fe92f0b}
+      \strng{authorbibnamehash}{5fd24bb3bcb0c808e3fd30337fe92f0b}
+      \strng{authornamehash}{5fd24bb3bcb0c808e3fd30337fe92f0b}
+      \strng{authorfullhash}{823671a008dbe335b785bf9816a2d0a0}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Shape robust text detection with progressive scale expansion network}
+      \field{year}{2019}
+      \field{pages}{9336\bibrangedash 9345}
+      \range{pages}{10}
+    \endentry
+    \entry{wang2019linkage}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=ca0724a3010f0a8c774baf95fdd595df}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhongdao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7f1ed47c0c1b22e46324b0745b5b65eb}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=95f1a26a96227bb4e2c0accb49469e2f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yali},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ee9eef9295a174fc1778569bd56008f9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shengjin},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa3eaf3fdcd09e66650e4ffbddad8070}
+      \strng{fullhash}{aa3eaf3fdcd09e66650e4ffbddad8070}
+      \strng{bibnamehash}{aa3eaf3fdcd09e66650e4ffbddad8070}
+      \strng{authorbibnamehash}{aa3eaf3fdcd09e66650e4ffbddad8070}
+      \strng{authornamehash}{aa3eaf3fdcd09e66650e4ffbddad8070}
+      \strng{authorfullhash}{aa3eaf3fdcd09e66650e4ffbddad8070}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Linkage based face clustering via graph convolution network}
+      \field{year}{2019}
+      \field{pages}{1117\bibrangedash 1125}
+      \range{pages}{9}
+    \endentry
     \entry{Xing_2019_ICCV}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=5d35bb73cc5d1fe08b49b369a640d244}{%
@@ -958,6 +1289,58 @@
       \field{pages}{5566\bibrangedash 5579}
       \range{pages}{14}
     \endentry
+    \entry{zhang2020deep}{article}{}
+      \name{author}{7}{}{%
+        {{hash=98a2a54ae38a3696e598d2ae152981aa}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shi-Xue},
+           giveni={S\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=2e6d083223535c9739fa361dbc391d63}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiaobin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ebeade45dc61f4c44576fa7a7e493854}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Jie-Bo},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=9d9ac6815e27331ba6620def723e357f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3c76b795a84b85e0d33f3513ee8f02c9}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2bf77da4d5e09d7c6436e1a9ddf5d4be}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongfa},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c817f1196db8be51ee71d5641a84ab2f}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Xu-Cheng},
+           giveni={X\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c35eb07909fb481be2f81c7a2b803e2}
+      \strng{fullhash}{e2b3b778623566008ccdce3a829f70dd}
+      \strng{bibnamehash}{9c35eb07909fb481be2f81c7a2b803e2}
+      \strng{authorbibnamehash}{9c35eb07909fb481be2f81c7a2b803e2}
+      \strng{authornamehash}{9c35eb07909fb481be2f81c7a2b803e2}
+      \strng{authorfullhash}{e2b3b778623566008ccdce3a829f70dd}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2003.07493}
+      \field{title}{Deep Relational Reasoning Graph Network for Arbitrary Shape Text Detection}
+      \field{year}{2020}
+    \endentry
     \entry{zhong2016deeptext}{article}{}
       \name{author}{4}{}{%
         {{hash=559144c8d8b0b908a3db59aa9f0f313b}{%
@@ -994,6 +1377,45 @@
       \field{journaltitle}{arXiv preprint arXiv:1605.07314}
       \field{title}{Deeptext: A unified framework for text proposal generation and text detection in natural images}
       \field{year}{2016}
+    \endentry
+    \entry{zhong2019anchor}{article}{}
+      \name{author}{3}{}{%
+        {{hash=559144c8d8b0b908a3db59aa9f0f313b}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Zhuoyao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=48c4637a04d7042f2b0d3daec079d61e}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6c9f6d6d1906593d7c11086572d2267e}{%
+           family={Huo},
+           familyi={H\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d9b2cc9d475c687df2688fa0b1e96be9}
+      \strng{fullhash}{d9b2cc9d475c687df2688fa0b1e96be9}
+      \strng{bibnamehash}{d9b2cc9d475c687df2688fa0b1e96be9}
+      \strng{authorbibnamehash}{d9b2cc9d475c687df2688fa0b1e96be9}
+      \strng{authornamehash}{d9b2cc9d475c687df2688fa0b1e96be9}
+      \strng{authorfullhash}{d9b2cc9d475c687df2688fa0b1e96be9}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal on Document Analysis and Recognition (IJDAR)}
+      \field{number}{3}
+      \field{title}{An anchor-free region proposal network for Faster R-CNN-based text detection approaches}
+      \field{volume}{22}
+      \field{year}{2019}
+      \field{pages}{315\bibrangedash 327}
+      \range{pages}{13}
     \endentry
     \entry{zhou2017east}{inproceedings}{}
       \name{author}{7}{}{%

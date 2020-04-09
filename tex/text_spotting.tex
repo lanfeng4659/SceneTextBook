@@ -24,12 +24,12 @@ MaskRoI\cite{qin2019towards}、Boundary\cite{wang2019all}、TextPerceptron\cite{
 
 
 
-\section{任意形状文本端到端识别方法的发展脉络}
+% \section{任意形状文本端到端识别方法的发展脉络}
 
 
 
 \section{各种任意形状文本端到端识别方法介绍}
-\subsection{MaskTextSpotter}
+\subsection{MaskTextSpotter (ECCV2018)}
 \subsubsection{MaskTextSpotter网络结构}
 MaskTextSpotter作为首个任意形状文本端到端识别方法，其思路是将每个文字字符作为一个类别进行检测。其网络框架如图\ref{masktextspotter_framework}所示，网络
 主体部分与MaskRCNN\cite{he2017mask}一致。由于常规的MaskRCNN网络（分割分支进行1通道的分割，表示是否为文字两个类别）只能完成文字检测任务，无法进行文字识别，
@@ -83,7 +83,7 @@ MaskTextSpotter的训练过程分为两部分：合成数据集预训练和真�
 使用的数据集有SynthText, ICDAR2013, ICDAR2015, TotalText以及来自\cite{zhong2016deeptext}的1162张图像。
 学习率从0.001开始，第100k下降0.1，训练150k步。
 
-\subsection{TextDragon}
+\subsection{TextDragon (ICCV2019)}
 虽然MaskTextSpotter能够进行任意形状文本端到端的识别，但是数据集字符级别的标注的要求使得网络的训练比较昂贵。TextDragon
 意在只使用单词级别的标注来设计任意形状文本端到端识别系统。
 \subsubsection{TextDragon网络结构}
@@ -116,7 +116,7 @@ TextDragon的训练过程分为两部分：合成数据集预训练和真实数�
 合成数据集使用的是SynthText，输入图像大小为512*512，学习率为0.01，训练600k步。
 在真实数据微调阶段，输入图像大小为512*512，数据集为相对应数据集的训练集，学习率为0.001，训练120k步。
 
-\subsection{CharNet}
+\subsection{CharNet (ICCV2019)}
 CharNet与TextDragon一样是在任意形状文本端到端识别算法只有MaskTextSpotter的背景下出现的方法。他的主要出发点是：当前端到端识别的方法中，
 都是two stage的（这里two stage是指检测网络得到检测结果，再根据检测结果利用RoI操作获取特征进行识别），作者认为two stage中RoI提取很难提取
 准确（主要是检测存在误差），并且two stage过程繁琐，不便使用。因此，作者想设计一个single stage的网络，同时输出文本实例的检测和识别结果。
@@ -139,7 +139,7 @@ CharNet的训练过程分为两部分：合成数据集预训练和真实数据�
 在真实数据微调阶段，数据集为相对应数据集的训练集，学习率为0.002，分三步进行迭代训练，三步训练回合分别为100，400，800epochs。
 这里每步迭代训练是指：利用先前的模型获得训练集的字符级别标注（检测框），过滤出正确的字符级别标注来训练模型，迭代n（100，400或800）个epochs。
 
-\subsection{MaskRoI}
+\subsection{MaskRoI (ICCV2019)}
 MaskRoI与CharNet以及TextDragon是同时期文章，该方法不需要字符级别的标注，同时不需要将任意形状文本矫正为水平文本进行识别。
 \subsubsection{MaskRoI网络结构}
 如图\ref{maskroi_framework}所示，MaskRoI和MaskTextSpotter一样，也是基于MaskRCNN框架进行改进的。识别分支采用基于attention的序列识别方案。
@@ -156,9 +156,28 @@ MaskRoI与CharNet以及TextDragon是同时期文章，该方法不需要字符�
 MaskRoI采用一步训练的方式，数据集包括SynthText，ICDAR2015，COCOText，ICDAR-MLT，TotalText以及网络收集的通过Google OCR Api标注的30k张图像。
 采用多尺度训练的策略，短边为480到800之间。
 
-\subsection{Boundary}
+\subsection{Boundary (AAAI2020)}
+Boundary\cite{wang2019all}和基于分割的方法得到任意形状文本的边界不同，该文章通过回归的方式获得任意形状文本的边界，从而避免负责的后处理过程使得检测识别两个过程完全端到端可训练。
+\subsubsection{Boundary网络结构}
+Boundary的网络结构如图\ref{boundary_framework}所示：网络整体基于FPN网络，首先检测出文本的长方形包围盒，提取该长方形内的特征（这样相当于将文本在角度上进行了归一化，使得边界点的回归更为准确）；
+然后检测文本的边界点，最后通过Arbitrary RoIAlign将曲形文本矫正为水平文本特征进行识别。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.98\textwidth]{figure/spotting/boundary_framework.png} 
+    \caption{Boundary框架图。} 
+    \label{boundary_framework} 
+\end{figure}
 
-\subsection{TextPerceptron}
+Boundary详细的回归细节如图\ref{boundary_regress}所示：准确回归出文本边界点的重要细节在于，在（b）处将文本的方向信息进行了归一化（即将文本旋转为水平进行边界点的检测），这样使得边界点的分布更为稳定。
+另外，文章中并不是直接预测边界点的坐标，而是在预设的anchor points基础上进行边界点的回归，这样同样可以简化边界点的回归任务。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.98\textwidth]{figure/spotting/boundary_regress.png} 
+    \caption{Boundary回归过程：（a）回归出文本的带方向的长方形包围盒；（b）归一化文本角度；（c）从anchor points处回归到boundary points。} 
+    \label{boundary_regress} 
+\end{figure}
+
+\subsection{TextPerceptron (AAAI2020)}
 TextPerceptron的主体思路也是文本实例边界点检测+TPS+序列识别。和Boundary不同之处在于文本边检点检测过程，具体地说，是通过文本实例的几何属性和后处理得到
 边界点。
 \subsubsection{TextPerceptron网络结构}
@@ -195,7 +214,7 @@ TextPerceptron分为3个阶段，1）训练检测分支，在SynthText上以学�
 3）检测识别联合训练，在各自训练集上以学习率0.001训练80 epochs，每20 epochs学习率乘以0.1。
 
 
-\subsection{ABCNet}
+\subsection{ABCNet (CVPR2020)}
 ABCNet的主体思路也是文本实例边界点检测+TPS+序列识别。边界点的检测采样回归的方法，和Boundary不同的是，检测部分采用anchor-free的方法。论文的框架主要基于FCOS\cite{tian2019fcos}上进行改进。
 \subsubsection{ABCNet网络结构}
 ABCNet采用贝塞尔曲线来表示文本实例的边界，贝塞尔曲线描述效果如图\ref{abcnet_basier}所示。网络框架如图\ref{abcnet_framework}所示，FCOS采用密集预测的方式。从代码中可以看出，检测部分的预测信息包括：
@@ -226,4 +245,4 @@ ABCNet采用贝塞尔曲线来表示文本实例的边界，贝塞尔曲线描�
 \subsubsection{ABCNet实验细节}
 TextPerceptron分为2个阶段：1）合成的150k合成数据集，15k的COCOText，7k的ICDAR-MLT预训练；2）相应的训练集训练。
 
-\section{任意形状文本端到端识别方法的总结}
+% \section{任意形状文本端到端识别方法的总结}

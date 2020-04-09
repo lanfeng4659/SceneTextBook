@@ -1,14 +1,22 @@
 %# -*- coding: utf-8-unix -*-
 %%==================================================
 \chapter{文字识别（Scene Text Recognition）}
-\cite{scatter,2020srn,wan2019textscanner}
+近期的文字识别的文章主要围绕两个主题进行展开：1）如何得到更准的对齐的字符特征；2）如何高效地利用文本的语义特征进行识别。
+
+DAN\cite{wang2019decoupled}，GTC\cite{hu2020gtc}以及TextScanner\cite{wan2019textscanner}都是针对第一个问题进行改进。DAN认为注意力模型中
+因需要依赖前一时刻预测结果从而存在累积误差使得模型的attention难以对齐，文中通过解耦注意力模块和文本语义预测模块使得attention更为准确。
+GTC认为基于CTC的文本识别器中，因为CTC的切割使得特征难以对齐。文中通过注意力模块来指导CTC的训练，从而使得特征在一定程度对齐。
+TextScanner通过预测字符的阅读顺序从而缓解字符定位问题。
+
+SCATTER\cite{scatter}和SRN\cite{2020srn}都是针对第二个问题进行改进。SCATTER通过在视觉特征和语义特征之间迭代地使用注意力机制从而动态选择视觉和语义特征来加强分类效果。
+SRN通过并行化注意力模块和语义模块，使得当前帧在预测时能够获得前向和后向的所有视觉以及语义特征，从而加强分类效果。
 \section{文字识别方法介绍}
-\subsection{DAN}
+\subsection{DAN (AAAI2020)}
 DAN\cite{wang2019decoupled}的主要是解决基于attention机制的识别器中因需要依赖先前预测结果（存在错误累积）所导致的注意力不对齐的问题。
 文章中通过解耦注意力机制和语义模型来解决该问题。解耦过程如图\ref{dan_introduction}所示。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.7\textwidth]{figure/recognition/dan_introduction.png} 
+    \includegraphics[width=.6\textwidth]{figure/recognition/dan_introduction.png} 
     \caption{DAN解耦过程：（a）之前的基于注意力机制的方法将注意力模块和语义推理模块放在一起；（b）DAN
     中先预测注意力，然后进行语义模块的预测。} 
     \label{dan_introduction} 
@@ -24,7 +32,7 @@ CAM用于预测每一步的attention map。
     \label{dan_framework} 
 \end{figure}
 
-\subsection{GTC}
+\subsection{GTC (AAAI2020)}
 GTC\cite{hu2020gtc}的主要是解决基于CTC的文字识别器中帧数不对齐的问题，比如字符'H'由于分帧的原因会被识别为'I'。
 文章中通过基于注意力机制的识别head的监督来使得特征在一定程度上对齐。在测试阶段为了保证效率，只使用基于CTC的识别head。
 另外，CNN特征经过分帧后，相邻帧之间在视觉上具有一定的相似性，为了使得特征能够进一步对齐（理想情况下一帧的特征代表一个字符的特征），
@@ -47,7 +55,7 @@ GTC的网络结构如图\ref{gtc_framework}所示：网络的整体结构和Aste
 \end{figure}
 
 
-\subsection{TextScanner}
+\subsection{TextScanner (AAAI2020)}
 TextScanner\cite{wan2019textscanner}的主要是解决基于分割的文本识别器中字符分割不准以及基于注意力机制的文本识别器中注意力发散的问题。目的仍然是
 寻找精准的字符定位从而使得特征对齐。如图\ref{textscanner_introduction}：基于注意力机制和分割的方法对字符的定位都存在一些问题，文章中通过预测单词
 的阅读顺序来解决该问题。
@@ -69,7 +77,7 @@ TextScanner的网络结构如图\ref{scatter_framework}所示：整体分为三�
     \label{textscanner_framework} 
 \end{figure}
 
-\subsection{SCATTER}
+\subsection{SCATTER (CVPR2020)}
 SCATTER\cite{scatter}的主要研究目的是让网络不断迭代地选择图像的视觉特征（CNN的特征）和语义特征（RNN建模出的语义特征）来强化
 模型的特征提取能力。而特征选择的过程通过注意力机制来完成。
 \subsubsection{SCATTER的网络结构}
@@ -90,8 +98,8 @@ SCATTER的网络结构如图\ref{scatter_framework}所示，网络的整体框�
     \label{scatter_feature_select} 
 \end{figure}
 
-\subsection{SRN}
-SRN的主要出发点是：
+\subsection{SRN (CVPR2020)}
+SRN\cite{2020srn}的主要出发点是：
 1）在文字识别中，由于光照，旋转等因素的影响，仅仅依靠图像的视觉特征
 极易引起单词中某个字符预测错误。对于这些易错的字符，如果能够利用单词的语义信息，那么
 将会极大地降低该字符的预测错误率。如图\ref{srn_introduction}所示，如果仅仅观察每个字符的视觉特征（b），
@@ -102,7 +110,7 @@ SRN的主要出发点是：
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.8\textwidth]{figure/recognition/srn_introduction.png} 
+    \includegraphics[width=.7\textwidth]{figure/recognition/srn_introduction.png} 
     \caption{单词中容易预测错误的字符案例：（a）表示原图；（b）表示字符，红色标注为易错字符；（c）为利用上下文语义信息预测结果。} 
     \label{srn_introduction} 
 \end{figure}
@@ -119,7 +127,7 @@ SRN的网络结构如图\ref{srn_framework}所示：1）整体网络的backbone�
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.8\textwidth]{figure/recognition/srn_gsrm.png} 
+    \includegraphics[width=.7\textwidth]{figure/recognition/srn_gsrm.png} 
     \caption{GSRM模块结构。} 
     \label{srn_gsrm} 
 \end{figure}
@@ -168,10 +176,10 @@ $f_{y}(y_{t-1})$作为输入，从而无法并行化。SRN中将$e_{t}^{'}$（�
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.98\textwidth]{figure/recognition/srn_multiway.png} 
+    \includegraphics[width=.8\textwidth]{figure/recognition/srn_multiway.png} 
     \caption{a）rnn中建模单词语义模型；b）SRN中建模单词语义模型能够考虑各个路径的信息，避免单向的错误累积。} 
     \label{srn_multiway} 
 \end{figure}
 
-\subsection{SEED}
-Not Publication
+% \subsection{SEED (CVPR2020)}
+% Not Publication

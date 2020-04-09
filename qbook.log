@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  5 APR 2020 15:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  8 APR 2020 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2365,28 +2365,31 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <64> not available
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 64.0pt on input line 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.05624pt on input line 5.
+(Font)              scaled to size 15.05624pt on input line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <15.05624> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 5.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 15.05624pt on input line 5.
+(Font)              scaled to size 15.05624pt on input line 13.
 File: figure/recognition/dan_introduction.png Graphic file (type bmp)
 <figure/recognition/dan_introduction.png>
-File: figure/recognition/dan_framework.png Graphic file (type bmp)
-<figure/recognition/dan_framework.png>
-[1
+
+Underfull \vbox (badness 3260) has occurred while \output is active []
+
+ [1
 
 
 
 ]
+File: figure/recognition/dan_framework.png Graphic file (type bmp)
+<figure/recognition/dan_framework.png>
 File: figure/recognition/gtc_introduction.png Graphic file (type bmp)
 <figure/recognition/gtc_introduction.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [2]
 File: figure/recognition/gtc_framework.png Graphic file (type bmp)
 <figure/recognition/gtc_framework.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [3]
 File: figure/recognition/textscanner_introduction.png Graphic file (type bmp)
 <figure/recognition/textscanner_introduction.png>
@@ -2395,56 +2398,102 @@ File: figure/recognition/textscanner_framework.png Graphic file (type bmp)
  [4]
 File: figure/recognition/scatter_framework.png Graphic file (type bmp)
 <figure/recognition/scatter_framework.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 File: figure/recognition/scatter_feature_select.png Graphic file (type bmp)
 <figure/recognition/scatter_feature_select.png>
- [5]
 File: figure/recognition/srn_introduction.png Graphic file (type bmp)
 <figure/recognition/srn_introduction.png>
+
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+ [6]
 File: figure/recognition/srn_framework.png Graphic file (type bmp)
 <figure/recognition/srn_framework.png>
 File: figure/recognition/srn_gsrm.png Graphic file (type bmp)
 <figure/recognition/srn_gsrm.png>
- [6]
+ [7]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 140.
+(Font)              scaled to size 10.53937pt on input line 148.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 140.
+(Font)              scaled to size 7.0pt on input line 148.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 140.
+(Font)              scaled to size 5.0pt on input line 148.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.48535pt on input line 140.
+(Font)              scaled to size 9.48535pt on input line 148.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 140.
+(Font)              scaled to size 6.29996pt on input line 148.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 140.
+(Font)              scaled to size 4.49997pt on input line 148.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 140.
+(Font)              scaled to size 10.53937pt on input line 148.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.0pt on input line 140.
+(Font)              scaled to size 7.0pt on input line 148.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.0pt on input line 140.
+(Font)              scaled to size 5.0pt on input line 148.
 File: figure/recognition/srn_multiway.png Graphic file (type bmp)
 <figure/recognition/srn_multiway.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]) [8]
+ [8]) [9]
 \openout2 = `tex/text_detection.aux'.
 
  (./tex/text_detection.tex
 第二章
-) [9
+File: figure/detection/mati_framework.png Graphic file (type bmp)
+<figure/detection/mati_framework.png>
+[10
 
 
 
 ]
+File: figure/detection/mati_textrender.png Graphic file (type bmp)
+<figure/detection/mati_textrender.png>
+ [11]
+File: figure/detection/texttubes_framework.png Graphic file (type bmp)
+<figure/detection/texttubes_framework.png>
+ [12]
+File: figure/detection/db_framework.png Graphic file (type bmp)
+<figure/detection/db_framework.png>
+File: figure/detection/db_gt.png Graphic file (type bmp)
+<figure/detection/db_gt.png>
+ [13]
+File: figure/detection/relatext_framework.png Graphic file (type bmp)
+<figure/detection/relatext_framework.png>
+File: figure/detection/relatext_gt.png Graphic file (type bmp)
+<figure/detection/relatext_gt.png>
+ [14]
+File: figure/detection/relatext_graph.png Graphic file (type bmp)
+<figure/detection/relatext_graph.png>
+File: figure/detection/puzzlenet_framework.png Graphic file (type bmp)
+<figure/detection/puzzlenet_framework.png>
+ [15]
+File: figure/detection/puzzlenet_gt.png Graphic file (type bmp)
+<figure/detection/puzzlenet_gt.png>
+ [16]
+File: figure/detection/drrg_framework.png Graphic file (type bmp)
+<figure/detection/drrg_framework.png>
+File: figure/detection/drrg_backbone.png Graphic file (type bmp)
+<figure/detection/drrg_backbone.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+File: figure/detection/drrg_gt.png Graphic file (type bmp)
+<figure/detection/drrg_gt.png>
+File: figure/detection/drrg_graph.png Graphic file (type bmp)
+<figure/detection/drrg_graph.png>
+) [18] [19]
 \openout2 = `tex/text_spotting.aux'.
 
  (./tex/text_spotting.tex
 第三章
 File: figure/spotting/trends.png Graphic file (type bmp)
 <figure/spotting/trends.png>
-[10
+[20
 
 
 
@@ -2453,68 +2502,72 @@ File: figure/spotting/masktextspotter_framework.png Graphic file (type bmp)
 <figure/spotting/masktextspotter_framework.png>
 File: figure/spotting/masktextspotter_maskbranch.png Graphic file (type bmp)
 <figure/spotting/masktextspotter_maskbranch.png>
-
-Underfull \vbox (badness 2293) has occurred while \output is active []
-
- [11]
+ [21]
 File: figure/spotting/masktextspotter_v2_framework.png Graphic file (type bmp)
 <figure/spotting/masktextspotter_v2_framework.png>
 File: figure/spotting/masktextspotter_v2_recog.png Graphic file (type bmp)
 <figure/spotting/masktextspotter_v2_recog.png>
- [12]
+ [22]
 File: figure/spotting/textdragon_framework.png Graphic file (type bmp)
 <figure/spotting/textdragon_framework.png>
- [13]
+ [23]
 File: figure/spotting/textdragon_representation.png Graphic file (type bmp)
 <figure/spotting/textdragon_representation.png>
 File: figure/spotting/charnet_framework.png Graphic file (type bmp)
 <figure/spotting/charnet_framework.png>
- [14] [15]
+ [24] [25]
 File: figure/spotting/maskroi_framework.png Graphic file (type bmp)
 <figure/spotting/maskroi_framework.png>
- [16]
+
+Underfull \vbox (badness 2042) has occurred while \output is active []
+
+ [26]
+File: figure/spotting/boundary_framework.png Graphic file (type bmp)
+<figure/spotting/boundary_framework.png>
+File: figure/spotting/boundary_regress.png Graphic file (type bmp)
+<figure/spotting/boundary_regress.png>
+ [27]
 File: figure/spotting/textperceptron_framework.png Graphic file (type bmp)
 <figure/spotting/textperceptron_framework.png>
 File: figure/spotting/textperceptron_label.png Graphic file (type bmp)
 <figure/spotting/textperceptron_label.png>
 File: figure/spotting/textperceptron_process.png Graphic file (type bmp)
 <figure/spotting/textperceptron_process.png>
- [17] [18]
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
 File: figure/spotting/abcnet_framework.png Graphic file (type bmp)
 <figure/spotting/abcnet_framework.png>
 File: figure/spotting/abcnet_basier.png Graphic file (type bmp)
 <figure/spotting/abcnet_basier.png>
 File: figure/spotting/abcnet_sample.png Graphic file (type bmp)
 <figure/spotting/abcnet_sample.png>
- [19]) [20]
+) [30] [31]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.045pt on input line 61.
- [21
+ [32
 
 
-] 
+] [33] 
 AED: lastpage setting LastPage
-[22]
+[34]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (./qbook.aux (./tex/cover.aux) (./tex/text_recognition.aux) (./tex/text_detection.aux) (./tex/text_spotting.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 64.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 64.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'qbook.run.xml'.
 \openout1 = `qbook.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61935 strings out of 492916
- 1327033 string characters out of 6133346
- 1791711 words of memory out of 5000000
- 64924 multiletter control sequences out of 15000+600000
+ 62059 strings out of 492916
+ 1331817 string characters out of 6133346
+ 1793472 words of memory out of 5000000
+ 65024 multiletter control sequences out of 15000+600000
  620267 words of font info for 176 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 77i,13n,426p,924b,5382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,13n,426p,924b,5384s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on qbook.pdf (26 pages).
+Output written on qbook.pdf (38 pages).

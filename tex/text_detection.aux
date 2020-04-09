@@ -2,16 +2,53 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\zref@newlabel[2]{}
 \FN@pp@footnotehinttrue 
-\@writefile{toc}{\contentsline {chapter}{\numberline {第二章\hspace  {.3em}}文字检测（Scene Text Detection）}{9}{chapter.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {第二章\hspace  {.3em}}文字检测（Scene Text Detection）}{10}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}文字检测是什么？}{9}{section.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}基于回归的方法}{9}{section.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}基于分割的方法}{9}{section.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}其他方法}{9}{section.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}文字检测方法介绍}{10}{section.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}MATI}{10}{subsection.2.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1.1}MATI的网络结构}{10}{subsubsection.2.1.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2--1}{\ignorespaces MATI网络框架图。\relax }}{11}{figure.caption.15}\protected@file@percent }
+\newlabel{mati_framework}{{2--1}{11}{MATI网络框架图。\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2--2}{\ignorespaces Text Instance Accuracy Loss。\relax }}{11}{figure.caption.16}\protected@file@percent }
+\newlabel{mati_textrender}{{2--2}{11}{Text Instance Accuracy Loss。\relax }{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}TextTubes}{12}{subsection.2.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2.1}TextTubes的网络结构}{12}{subsubsection.2.1.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2--3}{\ignorespaces TextTubes网络框架图。\relax }}{12}{figure.caption.17}\protected@file@percent }
+\newlabel{texttubes_framework}{{2--3}{12}{TextTubes网络框架图。\relax }{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}DB (AAAI2020)}{13}{subsection.2.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.3.1}DB的网络结构}{13}{subsubsection.2.1.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2--4}{\ignorespaces DB网络框架图。\relax }}{13}{figure.caption.18}\protected@file@percent }
+\newlabel{db_framework}{{2--4}{13}{DB网络框架图。\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2--5}{\ignorespaces DB label制作过程。\relax }}{13}{figure.caption.19}\protected@file@percent }
+\newlabel{db_gt}{{2--5}{13}{DB label制作过程。\relax }{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.4}RelaText}{14}{subsection.2.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.4.1}RelaText的网络结构}{14}{subsubsection.2.1.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2--6}{\ignorespaces RelaText网络框架图。\relax }}{14}{figure.caption.20}\protected@file@percent }
+\newlabel{relatext_framework}{{2--6}{14}{RelaText网络框架图。\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2--7}{\ignorespaces RelaText Label制作过程。\relax }}{14}{figure.caption.21}\protected@file@percent }
+\newlabel{relatext_gt}{{2--7}{14}{RelaText Label制作过程。\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2--8}{\ignorespaces RelaText GCN中边分类过程。\relax }}{15}{figure.caption.22}\protected@file@percent }
+\newlabel{relatext_graph}{{2--8}{15}{RelaText GCN中边分类过程。\relax }{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.5}PuzzleNet}{15}{subsection.2.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.5.1}PuzzleNet的网络结构}{15}{subsubsection.2.1.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2--9}{\ignorespaces PuzzleNet网络框架图。\relax }}{16}{figure.caption.23}\protected@file@percent }
+\newlabel{puzzlenet_framework}{{2--9}{16}{PuzzleNet网络框架图。\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2--10}{\ignorespaces PuzzleNet Label制作过程：1）生成大量的小的文本组件，2）相邻的小文本组件融合为长方形，3）将角度相近的长方形融合。\relax }}{16}{figure.caption.24}\protected@file@percent }
+\newlabel{puzzlenet_gt}{{2--10}{16}{PuzzleNet Label制作过程：1）生成大量的小的文本组件，2）相邻的小文本组件融合为长方形，3）将角度相近的长方形融合。\relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.6}DRRG (CVPR2020)}{17}{subsection.2.1.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.6.1}DRRG的网络结构}{17}{subsubsection.2.1.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2--11}{\ignorespaces DRRG网络框架图。\relax }}{17}{figure.caption.25}\protected@file@percent }
+\newlabel{drrg_framework}{{2--11}{17}{DRRG网络框架图。\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2--12}{\ignorespaces DRRG的backbone。\relax }}{18}{figure.caption.26}\protected@file@percent }
+\newlabel{drrg_backbone}{{2--12}{18}{DRRG的backbone。\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2--13}{\ignorespaces 文本组件构建过程。\relax }}{18}{figure.caption.27}\protected@file@percent }
+\newlabel{drrg_gt}{{2--13}{18}{文本组件构建过程。\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2--14}{\ignorespaces Graph中节点特征以及连接矩阵：节点特征由视觉特征和几何特征构成。\relax }}{19}{figure.caption.28}\protected@file@percent }
+\newlabel{drrg_graph}{{2--14}{19}{Graph中节点特征以及连接矩阵：节点特征由视觉特征和几何特征构成。\relax }{figure.caption.28}{}}
 \FN@pp@footnotehinttrue 
 \@setckpt{tex/text_detection}{
-\setcounter{page}{10}
+\setcounter{page}{20}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -21,12 +58,12 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{2}
-\setcounter{section}{4}
-\setcounter{subsection}{0}
-\setcounter{subsubsection}{0}
+\setcounter{section}{1}
+\setcounter{subsection}{6}
+\setcounter{subsubsection}{1}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{14}
 \setcounter{table}{0}
 \setcounter{parentequation}{0}
 \setcounter{float@type}{32}
@@ -51,7 +88,7 @@
 \setcounter{citetotal}{0}
 \setcounter{multicitecount}{0}
 \setcounter{multicitetotal}{0}
-\setcounter{instcount}{8}
+\setcounter{instcount}{32}
 \setcounter{maxnames}{4}
 \setcounter{minnames}{1}
 \setcounter{maxitems}{3}
@@ -65,7 +102,7 @@
 \setcounter{refsegment}{0}
 \setcounter{maxextratitle}{0}
 \setcounter{maxextratitleyear}{0}
-\setcounter{maxextraname}{2}
+\setcounter{maxextraname}{3}
 \setcounter{maxextradate}{0}
 \setcounter{maxextraalpha}{0}
 \setcounter{abbrvpenalty}{50}
